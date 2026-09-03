@@ -69,4 +69,20 @@ public class MyClass
     {
         return a + b + c;
     }
+
+    // New: Add methods with four parameters
+    public static double Add(double a, double b, double c, double d)
+    {
+        return a + b + c + d;
+    }
+
+    public static int Add(int a, int b, int c, int d)
+    {
+        return a + b + c + d;
+    }
+
+    public static decimal Add(decimal a, decimal b, decimal c, decimal d)
+    {
+        return a + b + c + d;
+    }
 }
