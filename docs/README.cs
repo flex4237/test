@@ -14,4 +14,14 @@ public class MyClass
 
         return a / b;
     }
+
+    public static int Divide(int a, int b)
+    {
+        if (b == 0)
+        {
+            throw new System.DivideByZeroException("Cannot divide by zero.");
+        }
+
+        return a / b;
+    }
 }
