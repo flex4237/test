@@ -38,7 +38,7 @@ public class MyClass
         return a / b;
     }
 
-    // Add methods for different numeric types
+    // Add methods for different numeric types (two parameters)
     public static double Add(double a, double b)
     {
         return a + b;
@@ -52,5 +52,21 @@ public class MyClass
     public static decimal Add(decimal a, decimal b)
     {
         return a + b;
+    }
+
+    // New: Add methods with three parameters
+    public static double Add(double a, double b, double c)
+    {
+        return a + b + c;
+    }
+
+    public static int Add(int a, int b, int c)
+    {
+        return a + b + c;
+    }
+
+    public static decimal Add(decimal a, decimal b, decimal c)
+    {
+        return a + b + c;
     }
 }
