@@ -24,4 +24,17 @@ public class MyClass
 
         return a / b;
     }
+
+    /// <summary>
+    /// Divide two decimal numbers. Throws DivideByZeroException if b is zero.
+    /// </summary>
+    public static decimal Divide(decimal a, decimal b)
+    {
+        if (b == 0)
+        {
+            throw new System.DivideByZeroException("Cannot divide by zero.");
+        }
+
+        return a / b;
+    }
 }
