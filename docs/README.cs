@@ -85,4 +85,20 @@ public class MyClass
     {
         return a + b + c + d;
     }
+
+    // Minus methods (two-parameter overloads)
+    public static double Minus(double a, double b)
+    {
+        return a - b;
+    }
+
+    public static int Minus(int a, int b)
+    {
+        return a - b;
+    }
+
+    public static decimal Minus(decimal a, decimal b)
+    {
+        return a - b;
+    }
 }
