@@ -101,4 +101,10 @@ public class MyClass
     {
         return a - b;
     }
+
+    // Simple float overload for Minus (added)
+    public static float Minus(float a, float b)
+    {
+        return a - b;
+    }
 }
